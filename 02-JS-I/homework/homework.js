@@ -128,7 +128,7 @@ function redondearNumero(num) {
   // Tu código:
   // var resto = num % 1;
   // var entero = num - resto;
-  if (resto >= 0.5) {return entero + 1:} else {return entero;} return Math.round (num);
+  if (resto >= 0.5) {return entero + 1;} else {return entero;} return Math.round (num);
 }
 
 function redondearHaciaArriba(num) {
