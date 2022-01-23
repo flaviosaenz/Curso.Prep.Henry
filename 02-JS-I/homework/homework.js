@@ -126,8 +126,8 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  // var resto = num % 1;
-  // var entero = num - resto;
+   var resto = num % 1;
+   var entero = num - resto;
   if (resto >= 0.5) {return entero + 1;} else {return entero;} return Math.round (num);
 }
 
@@ -148,7 +148,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if (numero === 0) {return false ;} else if ( numero > 0) { return "es positivo";} else if (numero <0); {return "es negativo";}
+  if (numero === 0) {return false ;} else if ( numero > 0) { return "Es positivo";} else if (numero <0); {return "Es negativo";}
 }
 
 function agregarSimboloExclamacion(str) {
